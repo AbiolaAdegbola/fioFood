@@ -1,0 +1,522 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#entete
+{
+	display: inherit;
+	background-color: rgb(20, 158, 68);
+	padding: 15px;
+}
+
+#entete ul li
+{
+   list-style: none;
+   display: inline;
+   margin-left: 20px;
+   font-weight: bolder;
+   font-size: 19px;
+   margin-bottom: 0px;
+}
+#entete ul li a,#enteteDeroulant ul li a,#enteteDeroulant ul li a:hover
+{
+   color: white;
+   text-decoration: none;
+}
+
+.nameFioFood
+{
+   background-color: rgb(20, 158, 68);
+   margin-right: 30px;
+   margin-bottom: 0px;
+}
+
+.nameFioFood img
+{
+   width: 130px;
+   margin-bottom: 0px;
+}
+
+#enteteDeroulant
+{
+	position: absolute;
+	background-color: seagreen;
+	font-size: 20px;
+	width: 100%;
+	display: none;
+}
+
+#enteteDeroulant ul
+{
+	display: flex;
+	width: 100%;
+}
+
+#enteteDeroulant ul li
+{
+	list-style-type: none;
+	padding: 9px;
+}
+
+#check:checked ~ #enteteDeroulant 
+{
+	display: initial;
+	top: 35px;
+	left: 0;
+}
+
+#barreClose,#compteCheckFermer
+{
+	opacity: 0;
+}
+
+#check:checked ~ label #barreClose,#compteCheck:checked ~ label #compteCheckFermer,
+#compteCheck:checked ~ label #compteApprouver
+{
+	opacity: 1;
+}
+
+#check:checked ~ label #barreCheck,#compteCheck:checked ~ label #compteCheckOuvert,
+#compteCheck:checked ~ label #compteApprouver
+{
+	opacity: 0;
+}
+
+#barre label i
+{
+	position: absolute;
+	right: 60px;
+	font-size: 25px;
+	cursor: pointer;
+	top: 5px;
+}
+
+#IconSearch
+{
+	position: absolute;
+	right: -45px;
+	bottom: -15px;
+	color: rgb(64, 255, 0);
+	font-size: 29px;	
+	cursor: pointer;
+}
+
+#iconFiofood
+{
+   margin-left: 4px;
+   margin-top: 2px;
+}
+
+#iconFiofood img
+{
+   width: 100px;
+   margin-left: 20px;
+   margin-top: 2px;
+}
+
+.appelLaBarreDeRecherche
+{
+	position: absolute;
+	left: 45%;
+	bottom: 1px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.choixCategorieHeader
+{
+	position: absolute;
+	left: 60%;
+	bottom: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#conteneurIconbarreRecherche
+{
+	position: fixed;
+	display: flex;
+	background-color: seagreen;
+	top: 0;
+	width: 100%;
+	min-height: 35px;
+	max-height: 35px;
+	z-index: 9900
+}
+
+#iconFontawesomeCompte a i
+{
+	position: absolute;
+	font-size: 35px;
+	right: 10px;
+	color: white;
+	margin-top: 1px;
+	cursor: pointer;
+}
+
+#compteCheckOuvert
+{
+	position: absolute;	
+	min-height: 35px;
+	max-height: 35px;
+	min-width: 35px;
+	max-width: 35px;
+	border-radius: 100px;	
+	cursor: pointer;
+	top: -1px;
+	right: 15px;
+}
+
+#compteCheckFermer
+{
+	position: absolute;
+	top: 1px;
+	font-size: 35px;
+	right: 15px;
+	cursor: pointer;
+	color: white;
+}
+
+.iconFontawesomeCompteBoitedialogue img
+{
+	position: absolute;	
+	min-height: 80px;
+	max-height: 80px;
+	min-width: 80px;
+	max-width: 80px;
+	border-radius: 100px;
+	right: 20px;
+	top: 20px;
+}
+
+.nomPrenomBoiteDialogueCompte
+{
+	position: absolute;
+	top: 25px;	
+	right: 30%;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.VoirProfil
+{
+	position: absolute;
+	bottom: 10px;
+	left: 30%;
+	font-weight: bolder;
+}
+
+.VoirProfil img
+{
+	min-width: 29px;
+	max-width: 29px;
+	min-height: 29px;
+	max-height: 29px;
+}
+
+.fairePosteUtlisateurBoiteDialogue,.boutonSuivrePanier
+{
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	display: flex;
+}
+
+.boutonSuivrePanier
+{
+	top: 150px;
+}
+
+.conteneurContenantLesInformationsSurCompteBoitedialogue
+{
+	position: absolute;
+	top: 210px;
+	left: 5%;
+	display: flex;
+}
+
+.conteneurContenantLesInformationsSurCompteBoitedialogue div
+{
+	margin: 10px;
+}
+
+.fairePosteUtlisateurBoiteDialogue div,.boutonSuivrePanier
+{
+	margin: 14px;
+	padding: 10px;
+	background-color: rgba(255, 128, 64, 0.8);
+	border-radius: 10px;
+}
+
+#barreDeRechercheForm
+{
+	width: 50%;
+	margin-left: 19%;
+	margin-top: 3px;
+}
+
+#barreDeRecherche
+{
+	position: relative;
+	width: 70%;
+}
+
+#barreDeRecherche input
+{
+	border-radius: 22px;
+	padding-left: 12px;
+	width: 100%;
+}
+
+.compteBoiteDialogue
+{
+	position: absolute;
+	width: 100vh;
+	height: 100vh;
+	margin-top: 9px;
+	left: 0;
+	background-color: rgba(0, 128, 0, 0.9);
+	display: none;
+}
+
+#compteCheck:checked ~ .compteBoiteDialogue
+{
+	display: inherit;
+}
+
+.enteteBoitedialogueCompte
+{
+	position: relative;
+	background-color: seagreen;
+	height: 100px;
+}
+
+#barreDeroulant
+{
+	position: absolute;
+	top: -3px;
+	right: 65px;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.panierPrincipal
+{
+	position: absolute;
+	left: 12%;
+}
+
+.panierPrincipal img
+{
+	max-width: 7%;
+	min-width: 7%;
+	cursor: pointer;
+}
+
+/*  
+LES MEDIAS QUERIES 
+MOBILES
+*/
+@media(max-width: 570px)
+{
+.compteBoiteDialogue
+{
+	width: 90%;
+}
+.VoirProfil
+{
+	left: 30%;
+}
+.fairePosteUtlisateurBoiteDialogue,.boutonSuivrePanier
+{
+	left: 3px;
+}
+#entete
+{
+	display: none;
+}
+
+#barre label i
+{
+	right: 80px!important;
+}
+
+.panierPrincipal
+{
+	left: 30%;
+}
+
+.panierPrincipal img
+{
+	max-width: 10%;
+	min-width: 10%;
+}
+
+#barreDeRechercheForm
+{
+	display: none;
+}
+}
+
+@media (min-width: 570px) and (max-width: 649px)
+{
+.compteBoiteDialogue
+{
+	width: 90%;
+}
+#entete
+{
+	display: none;
+}
+
+#barre label i
+{
+	right: 90px!important;
+}
+
+.panierPrincipal
+{
+	left: 25%;
+}
+
+.panierPrincipal img
+{
+	max-width: 8%;
+	min-width: 8%;
+	cursor: pointer;
+}
+
+#barreDeRechercheForm
+{
+	display: none;
+}
+
+}
+
+/*  
+LES MEDIAS QUERIES 
+TABLETTES
+*/
+@media (min-width: 650px) and (max-width: 768px)
+{
+#entete
+{
+	display: none;
+}
+
+#iconFontawesomeCompte a i
+{
+	right: 40px!important;
+}
+
+#barreDeRechercheForm
+{
+	display: none;
+}
+
+#barre label i
+{
+	right: 140px!important;
+}
+.panierPrincipal
+{
+	left: 20%;
+}
+}
+
+
+/*  
+LES MEDIAS QUERIES 
+ORDINATEURS
+*/
+@media (min-width: 768px) and (max-width: 992px)
+{
+#entete
+{
+	position: relative;
+}
+.panierPrincipal
+{
+	left: 20%;
+}
+
+.choixCategorieHeader
+{
+	left: 28%;
+}
+
+#iconFontawesomeCompte a i
+{
+	right: 40px!important;
+}
+
+#barre label i
+{
+	right: 100px!important;
+}
+
+
+.appelLaBarreDeRecherche
+{
+	display: none;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px)
+{
+
+.panierPrincipal
+{
+	left: 15%;
+}
+
+.choixCategorieHeader
+{
+	left: 25%;
+}
+
+#entete
+{
+	position: relative;
+}
+#iconFontawesomeCompte a i
+{
+	right: 40px!important;
+}
+#barre label i
+{
+	right: 120px!important;
+}
+
+.appelLaBarreDeRecherche
+{
+	display: none;
+}
+}
+
+@media(min-width: 1200px)
+{
+.choixCategorieHeader
+{
+	left: 20%;
+}
+#entete
+{
+	position: relative;
+}
+#iconFontawesomeCompte a i
+{
+	right: 40px!important;
+}
+#barre label i
+{
+	right: 120px!important;
+}
+
+.appelLaBarreDeRecherche
+{
+	display: none;
+}
+}
+

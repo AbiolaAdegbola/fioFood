@@ -1,0 +1,497 @@
+#contenurCompte
+{
+	margin-top: 32px;
+}
+.photoProfilNomPrenomContenuer
+{
+	position: relative;
+	display: flex;
+	border-radius: 10px;
+	margin: 10px;
+	margin-top: -30px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0,0,0,0.5);
+	background-color: seagreen;
+}
+
+.NomPrenomContenuer
+{
+	margin-top: 18px;
+	margin-left: 22px;
+	padding: 16px;
+	width: 100%;
+}
+
+.nomPrenom
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+.CordonneeUtilisateurCompteInformationTitre
+{
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.CordonneeUtilisateurCompteInformation
+{
+	margin-left: 10em;
+}
+
+.CordonneeUtilisateurCompte i
+{
+	color: blue;
+	padding: 10px;
+	cursor: pointer;
+}
+.photoProfil
+{
+	position: absolute;
+	cursor: pointer;
+	top: 180px;
+	min-width: 105px;
+	max-width: 105px;
+	margin-left: 30%;
+	z-index: 9;
+}
+/*VOIR LA PAGE BANNIERFIOFOOD.CSS POUR LA MISE EN FORME*/
+.modifierCouverturePhotoProfil
+{
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	font-size: 25px;
+	z-index: 9;
+}
+
+.modifierCouverturePhotoProfilCouverture
+{
+	position: absolute;
+	bottom: 30px;
+	right: 12px;
+	font-size: 25px;
+	z-index: 9;
+}
+
+.photoProfil img
+{
+	min-width: 100px;
+	max-width: 100px;	
+	min-height: 100px;
+	max-height: 100px;
+	border-radius: 100px;
+	border: 2.5px solid seagreen;	
+}
+
+.conteneurContactCorrespondant
+{
+	display: flex;
+
+}
+
+#divContenantMS
+{
+	display: flex;
+	margin-left: 20%;
+}
+
+.sliderPostesDescriptionCompteUtilisateur
+{
+	margin-left: 30px;
+}
+
+.suprimerAnnonce,.modifierAnnonce,.suprimerAnnonce a:hover
+{
+    font-size: 	29px;
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+.suprimerAnnonce a,.suprimerAnnonce a:hover
+{
+	color: rgba(245,0,0,0.5);
+	margin-left: 10px;
+}
+.modifierAnnonce
+{
+	color: rgba(0 245 ,0,0.5);
+	margin-right: 10px;
+
+}
+
+.conteneurCouvertureCompte
+{
+	width: 100%;	
+}
+
+.comptePhotoDessus
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color:  rgba(68,68,68,0.7);
+	min-height: 280px;
+	max-height:280px;
+}
+
+.comptePhotoDessus div img
+{
+	top: 0;
+	width: 80%;
+	min-height: 280px;
+	max-height:280px;
+}
+
+.conteneurCouvertureCompte > img
+{
+	width: 100%;
+	min-height: 280px;
+	max-height:280px;
+}
+
+/*
+VOIR LA BANNIERFIOFOOD.CSS POUR LA MISE EN FORME
+*/
+
+#descriptionp input
+  {
+       padding: 20px;
+       border-radius: 10px;
+  }
+
+#descriptionp div
+{
+	margin-left: 10px;
+	font-size: 17px;
+	font-weight: bolder;
+	color: rgba(0 ,0, 0, 0.5);
+}
+
+#descriptionpEnregistrer,#descriptionpAnnuler
+{
+	cursor: pointer;
+}
+
+.compteUtilisateurPosteConteneurFlex
+{
+
+}
+
+.compteUtilisateurPosteApresFlex
+{
+	width:50%;
+}
+
+.conteneurPrincipaleDesDifferentesPostes
+{
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.chargement,.chargementUnique
+{
+	display: none;
+}
+
+.conteneurContenantLesInformationsSurCompte
+{
+   background-color: rgba(192, 192, 192, 0.2);
+   width: 30%;
+   height: 100%;
+   padding-left: 10px;
+   text-align: center;
+}
+
+#mesAnnonce div
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0.3px ridge rgba(0, 0, 0, 0.5);
+	color: blue;
+}
+
+#mesAnnonce header,#mesAnnonceBooster,#mesAnnonceAbonnement
+{
+   font-size: 25px;
+   font-style: italic;
+   text-decoration: underline;
+   text-shadow: 1px 1px 1px 1px black;
+}
+
+#mesAnnonce header a,#mesAnnonceBooster a,#mesAnnonceAbonnement a
+{
+	color: black;
+}
+
+#mesAnnonceBooster,#mesAnnonceAbonnement
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.publiciteSectionCompte img
+{
+   width: 100%;   
+   max-height: 300px;
+   min-height: 300px;
+   border-radius: 10px;
+}
+
+.conteneurPublicitesCompteVisite
+{
+   background-color: rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   margin: 2px;
+   padding: 10px;
+   width: 40%;
+   height: 100%;
+}
+
+.conteneurContenantLesPostes
+{
+	margin: 8px;
+}
+
+.conteneurPublicitesCompteVisite a,.conteneurPublicitesCompteVisite a:hover
+{
+   text-decoration: none;
+}
+.conteneurPublicitesCompteVisite header
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(117, 150, 255);
+}
+.publiciteCompteNomPrenom
+{
+   padding-top: 5px;
+   padding-bottom: 9px;
+}
+
+.publiciteCompteNomPrenom span
+{
+    color: rgba(0, 0, 255, 0.5);
+}
+.publiciteCompteUtilisateur
+{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+	padding-bottom: 2px;   
+	padding-top: 2px;
+}
+
+.conteneurNosPartenairesPublicite
+{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	text-align: center;
+}
+
+.publiciteCompteImage
+{
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+.publiciteCompteImage img
+{
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+	border-radius: 100px;
+}
+
+.publiciteSectionCompte
+{
+   min-height: 200px;
+   max-height: 200px;
+   position: relative;
+}
+
+.publiciteSectionCompte img
+{  
+   max-height: 200px;
+   min-height: 200px;
+   border-radius: 10px;
+}
+.descriptionPubliciteCompte
+{
+	position: absolute;
+	background-color: rgba(234,234,234,0.7);
+	width: 100%;
+	text-align: center;
+	color: black;
+	bottom: 0.5px;
+	top: 0;
+	border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 480px)
+  {
+    .contenuCentralCompteCss
+    {
+      margin-left: 2%;
+    }
+  }
+    @media (min-width: 480px) and (max-width: 568.000897px)
+  {
+    .contenuCentralCompteCss
+    {
+      margin-left: 5%;
+    }
+  }
+    @media (min-width: 568.000897px) and (max-width: 768.000897px)
+  {
+    .contenuCentralCompteCss
+    {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+
+/*  
+LES MEDIAS QUERIES 
+MOBILES
+*/
+@media (max-width: 480px)
+{
+
+.conteneurPrincipaleDesDifferentesPostes
+{
+	display: initial;
+}	
+
+.conteneurContenantLesInformationsSurCompte
+{
+	display: flex;
+   width: 100%;
+   background-color: white;
+}
+
+.conteneurContenantLesInformationsSurCompte div
+{
+	padding-left: 10px;
+}
+}
+
+@media(max-width: 768px)
+{
+
+.conteneurPrincipaleDesDifferentesPostes
+{
+	display: initial;
+}
+
+.comptePhotoDessus div img
+{
+	top: 22px;
+	width: 100%;
+}
+
+.photoProfil
+{
+	margin-left: 40%;
+}
+
+.conteneurContenantLesInformationsSurCompte
+{
+	display: flex;
+   width: 100%;
+   background-color: white;
+}
+
+.conteneurContenantLesInformationsSurCompte div
+{
+	padding-left: 10px;
+}
+
+.conteneurContenantLesPostes
+{
+	margin-left: 10px;
+}
+.conteneurPublicitesCompteVisite,.conteneurPublicitesCompte
+{
+	display: none;
+}
+
+.compteUtilisateurPosteConteneurFlex
+{
+   display: flex;
+}
+
+}
+
+/*  
+LES MEDIAS QUERIES 
+TABLETTES
+*/
+@media(min-width: 768px) and (max-width: 992px)
+{
+.conteneurPrincipaleDesDifferentesPostes
+{
+
+}
+.compteUtilisateurPosteConteneurFlex
+{
+	display: flex;
+}
+.compteUtilisateurPosteApresFlex
+{
+	width: 50%;
+}
+}
+
+/*  
+LES MEDIAS QUERIES 
+ORDINATEURS
+*/
+@media (min-width: 992px) and (max-width: 1200px)
+{
+#divContenantMS
+{
+	margin-left: 30%;
+}
+.conteneurPrincipaleDesDifferentesPostes
+{ 
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.compteUtilisateurPosteConteneurFlex
+{
+	display: flex;
+}
+.compteUtilisateurPosteApresFlex
+{
+	width: 50%;
+}
+
+}
+
+@media(min-width: 1200px)
+{
+#divContenantMS
+{
+	margin-left: 30%;
+}
+.conteneurPrincipaleDesDifferentesPostes
+{
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.compteUtilisateurPosteConteneurFlex
+{
+	display: flex;
+}
+.compteUtilisateurPosteApresFlex
+{
+	width: 50%;
+}
+
+}

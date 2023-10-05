@@ -1,0 +1,145 @@
+.carouselBanniere
+{
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+
+.carouselBanniereItems
+{
+	width: 100%;
+	position: relative;
+}
+
+.carouselBanniereItems img
+{
+	width: 100%;
+	max-height: 220px;
+	min-height: 220px;
+}
+
+.imageDessusBanniere
+{
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.imageDessusBanniereContenantImage
+{
+	width: 100%;
+}
+
+.imageDessusBanniereContenantImage img
+{
+	width: 100%;
+	max-height: 180px;
+	min-height: 180px;
+}
+
+@media (min-width: 658px) and (max-width: 768px)
+{
+.imageDessusBanniereContenantImage img
+{
+	margin-left: 5px;
+}
+
+.carouselBanniereItems img
+{
+	width: 100%;
+	max-height: 280px;
+	min-height: 280px;
+}
+
+.conteneurCouvertureCompte > img
+{
+	width: 100%;
+	min-height: 280px;
+	max-height:280px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+.carouselBanniereItems img
+{
+	width: 100%;
+	max-height: 280px;
+	min-height: 280px;
+}
+
+.conteneurCouvertureCompte > img
+{
+	width: 100%;
+	min-height: 320px;
+	max-height:320px;
+}
+
+.photoProfil
+{
+	top: 220px;
+	margin-left: 45%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px)
+{
+.carouselBanniereItems img
+{
+	width: 100%;
+	max-height: 280px;
+	min-height: 280px;
+}
+.imageDessusBanniereContenantImage img
+{
+	min-width: 850px!important;
+	max-width: 850px!important;
+	max-height: 180px!important;
+	min-height: 180px!important;
+	margin-left: 9%;
+}
+
+.conteneurCouvertureCompte > img
+{
+	width: 100%;
+	min-height: 320px;
+	max-height:320px;
+}
+
+.photoProfil
+{
+	top: 220px;
+	margin-left: 45%;
+}
+}
+
+@media (min-width: 1200px)
+{
+.carouselBanniereItems img
+{
+	width: 100%;
+	max-height: 280px;
+	min-height: 280px;
+}
+.imageDessusBanniereContenantImage img
+{
+	min-width: 800px!important;
+	max-width: 800px!important;
+	max-height: 280px!important;
+	min-height: 280px!important;
+	margin-left: 19%;
+}
+
+.conteneurCouvertureCompte > img
+{
+	width: 100%;
+	min-height: 320px;
+	max-height:320px;
+}
+
+.photoProfil
+{
+	top: 220px;
+	margin-left: 45%;
+}
+}

@@ -1,0 +1,279 @@
+.ConteneurGestionCompteUserAdmin
+{
+
+}
+
+.compteUserAdminSection
+{
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4);
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 243px;
+	max-height: 243px;
+	margin: 10px;
+}
+
+.compteUserAdmincouvertureCompte img
+{
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 130px;
+	max-height: 130px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.compteUserAdminPhoto img
+{
+	position: absolute;
+	top: 44px;
+	left: 20px;
+	min-width: 100px;
+	max-width: 100px;
+	min-height: 100px;
+	max-height: 100px;
+	border-radius: 100px;
+}
+
+.compteUserAdminNomPrenom
+{
+	margin-top: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.compteUserAdminInfo
+{
+	text-align: center;
+}
+
+.compteUserAdminModifier
+{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	left: 23%;
+}
+
+.boutonModifierCompte
+{
+	padding: 10px;
+}
+
+.conteneurGeneralCompteUserAdminAvecFlex
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+@media (min-width:930px) 
+{
+.conteneurGeneralCompteUserAdmin
+{
+	display: flex;	
+	justify-content: center;
+}
+}
+
+.gestionPanierAdministrateur
+{
+	margin-top: 40px;
+}
+
+.gestionPanierSectionElement
+{
+	min-width: 300px;
+	max-width: 300px;
+	margin: 10px;
+	text-align: center;
+	font-size: 22px;
+	border: 1px solid seagreen;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 2px rgba(0, 255, 0, 0.1);
+}
+
+.gestionPanierSectionElementNumerColisNom
+{
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.gestionPanierSectionElementNumerColis
+{
+	font-weight: bold;
+	padding: 10px;
+}
+
+.gestionPanierSectionElementInfoLivreur
+{
+	position: relative;
+}
+
+.gestionPanierSectionElementInfoLivreur header
+{
+	color: seagreen;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.gestionPanierSectionElementInfoLivreurImage img
+{
+	position: absolute;
+	left: 20px;
+	top: 4px;
+	min-width: 40px;
+	max-width: 40px;
+	min-height: 40px;
+	max-height: 40px;
+	border-radius: 100px;
+}
+
+.gestionPanierSectionElementInfoLivreurNom
+{
+	font-size: 16px;
+	font-style: italic;
+}
+
+.gestionPanierSectionElementInfoLivreurNom span
+{
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+
+.gestionPanierSectionElementLivreur
+{
+	color: blue;
+	font-style: italic;
+	cursor: pointer;
+}
+
+.livreurDisponible
+{
+	text-align: center;
+	color: black;
+}
+
+.livreurDisponible
+{
+	margin-bottom: 8px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.livreurDisponibleHeader
+{
+	color: seagreen;
+	font-size: 22px;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+.livreurDisponibleNom
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.livreurDisponibleInformation
+{
+	font-size: 18px;
+}
+
+.livreurDisponibleInformation span
+{
+	font-size: 14px;
+	font-style: italic;
+}
+
+.gestionPanierConteneurElement
+{
+	
+}
+
+.livreurDisponibleInformationInput input
+{
+
+}
+
+@media (min-width:670px)
+{
+.gestionPanierConteneurElement
+{
+	display: flex;
+	justify-content: center;
+}
+}
+
+.administrateurFiofoodConnecterTableauBord
+{
+	margin: 20px;
+	padding: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: darkslategray;
+	border-radius: 10px;
+	min-width: 290px;
+	max-width: 290px;
+}
+
+.administrateurFiofoodConnecterTableauBord a
+{
+	color: white;
+}
+
+.administrateurFiofoodConnecterTableauBord:active
+{
+	background-color: white;
+}
+
+.administrateurFiofoodConnecterTableauBordStatiques
+{
+	margin: 10px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	min-width: 350px;
+	max-width: 350px;
+}
+
+.administrateurFiofoodConnecterTableauBordStatiques header
+{
+	box-shadow: 1px 2px 2px 2px seagreen;
+	border-radius: 10px 10px 0px 0px;
+	background-color: seagreen;
+	padding: 8px;
+	color: white;
+	font-size: 22px;
+}
+
+.administrateurFiofoodConnecterTableauBordStatiquesTous
+{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.administrateurFiofoodConnecterTableauBordStatiquesTousAvantFlex,
+.administrateurFiofoodConnecterTableauBordNombre
+{
+	margin: 10px;
+}
+
+.administrateurFiofoodConnecterTableauBordNombre
+{
+	font-size: 50px;
+	font-family: fantasy;
+}
+
+.administrateurFiofoodConnecterTableauBordNom
+{
+	font-size: 18px;
+	font-style: italic;
+}

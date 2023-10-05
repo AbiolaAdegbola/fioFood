@@ -1,0 +1,154 @@
+.conteneurPrincipaleAvantFlex
+{
+	display: flex;  
+}
+
+.conteneurFlex
+{
+	min-width: 50%;
+	max-width: 50%;
+}
+
+.vendeurProfessionnelleMarcheAgriculteurs img
+{
+	position: absolute;
+	min-width: 30px;
+	max-width: 30px;
+	min-height: 30px;
+	max-height: 30px;
+	top: 5px;
+	right: 12px;
+}
+
+.nomUtilisateurDescriptionconteneur
+{
+	background-color: seagreen;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	border-radius: 0px 0px 9px 9px;
+}
+
+.idAgriculteur
+{
+	margin: 5px;
+	position: relative;
+	border-radius: 9px;
+	height: 250px;
+	cursor: pointer;
+}
+
+.imageProfil img
+{
+    border-radius: 100px;
+    min-height: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    position: absolute;
+	left: 22px;
+	top: 90px;
+	z-index: 1;
+}
+
+.itemsCouverture img
+{
+	width: 100%;
+	min-height: 180px;
+	max-height: 180px;
+	border-radius: 9px 9px  0px 0px;
+}
+
+.nomUtilisateur
+{
+	position: absolute;
+	top: 15px;
+	left: 24px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.descriptionUtilisateur
+{
+	position: absolute;
+	left:12px;
+	margin: 12px;
+	bottom: 0;
+	font-size: 14px;
+	color: white;
+}
+
+/*  
+LES MEDIAS QUERIES 
+MOBILES
+*/
+
+@media (min-width: 600px) and (max-width: 768px)
+{
+.conteneurPrincipaleAvantFlex
+{
+	margin-right: 3%;
+	margin-left: 3%;
+}
+}
+
+/*  
+LES MEDIAS QUERIES 
+TABLETTES
+*/
+@media(min-width: 768px) and (max-width: 992px)
+{
+.grandesEntrepriseFiofood
+{
+ 	position: relative;
+  	min-width: 89%;
+  	max-width: 89%;
+  	left: 5%;
+}
+.conteneurPrincipaleAvantFlex
+{
+	margin-right: 10%;
+	margin-left: 10%;
+}	
+}
+
+/*  
+LES MEDIAS QUERIES 
+ORDINATEURS
+*/
+@media (min-width: 992px) and (max-width: 1200px)
+{
+.grandesEntrepriseFiofood
+{
+ 	position: relative;
+  	min-width: 80%;
+  	max-width: 80%;
+  	left: 10%;
+}
+
+.conteneurPrincipaleAvantFlex
+{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+}
+
+@media (min-width: 1200px)
+{
+.grandesEntrepriseFiofood
+{
+ 	position: relative;
+  	min-width: 80%;
+  	max-width: 80%;
+  	left: 10%;
+}
+
+	
+.conteneurPrincipaleAvantFlex
+{
+	margin-right: 15%;
+	margin-left: 15%;
+}
+}
