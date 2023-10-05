@@ -1,0 +1,131 @@
+.postesConteneurDisplayNaturel
+{
+  min-width: 170px;
+  max-width: 170px;
+}
+
+.postesNaturel ,.postesTopannonce
+{
+  position: relative;	
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.3);
+  margin: 5px;  
+  max-height: 180px!important;
+  min-height: 180px!important;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+}
+
+.imagePosteNaturel img
+{
+   min-width: 100%;
+   max-width: 100%;
+   max-height: 90px!important;
+   min-height: 90px!important;
+   border-radius:9px 9px 0px 0px;
+}
+
+ .ajouterPanierImageNaturel
+ {
+  position: absolute;
+  bottom: 0;
+  padding: 4px;
+  text-align: center;
+  width: 100%;
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  border-radius: 0px 0px 9px 9px;
+  cursor: pointer;
+ }
+
+ .CertifierfiofoodNaturel img
+ {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  min-width: 20%;
+  max-width: 20%;
+ }
+
+.ajouterPanier
+{
+  display: flex;
+}
+
+.ajouterPanierImage
+{
+  cursor: pointer;
+  position: absolute;
+}
+
+.ajouterPanierImage
+{
+  left: 2px;
+  bottom: 1px;
+  width: 20%;
+}
+
+.ajouterPanierImage img
+{
+  width: 100%;
+}
+
+.vendeurNom
+{
+  position: absolute;
+  left: 50px;
+  bottom: 1px;
+  font-style: italic;
+}
+
+.vendeurNom img
+{
+  width: 25%;
+}
+
+#PrincipalePosteConteneurNaturel
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (max-width: 500px)
+{
+  #PrincipalePosteConteneurNaturel
+  {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 700px)
+{
+
+
+}
+
+@media (min-width: 776.980px) and (max-width: 1024.5555px)
+{
+
+}
+
+@media (min-width: 776.980px) and (max-width: 990.5555px)
+{
+  #PrincipalePosteConteneurNaturel
+  {
+  }
+}
+
+@media (min-width: 990.656px) and (max-width: 1223.454px)
+{
+  #PrincipalePosteConteneurNaturel
+  {
+  }
+}
+
+@media (min-width: 1223.456px)
+{
+  #PrincipalePosteConteneurNaturel
+  {
+  }
+}

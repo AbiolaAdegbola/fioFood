@@ -1,0 +1,215 @@
+.posteSelectionne
+{
+	
+}
+
+
+#icontelePageDemander,#iconwhatPageDemander,#iconSMSPageDemander
+{
+	font-size: 32px;
+	padding-left: 45px;
+	padding-right: 2px;
+	cursor: pointer;
+}
+
+#icontelePageDemander
+{	
+	color: rgb(42, 91, 165);
+}
+
+#iconwhatPageDemander
+{
+   color: rgb(9, 255, 0);
+}
+
+#iconSMSPageDemander
+{
+	color: rgb(255, 128, 192);
+}
+
+.imageCarousel img
+{
+	min-height: 250px;
+	max-height: 250px;
+	min-width: 250px;
+	max-width: 250px;
+	radius: 1px;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+	margin: 2px;
+}
+
+.panierRecherchePageDemandeClient img
+{
+
+	position: absolute;
+	min-width: 80px;
+	max-width: 80px;
+	min-height: 80px;
+	max-height: 80px;	
+	margin-left: 30px;
+	right: 25%;
+	top: 55%;
+	cursor: pointer;
+}
+
+.posteSelectionneDescription
+{
+	position: relative;
+	box-shadow: 1px 4px 4px 4px seagreen;
+	border-radius: 9px 9px 0px 0px;
+	background-color: seagreen;
+	margin: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 20px;
+}
+
+.titreAnnonceAvant
+{
+	color: rgba(145, 150, 255, 1);
+}
+
+.titreAnnonceDiv div
+{
+  margin: 10px; 
+}
+
+.titreAnnonceAvant,.categorieAnnonceAvant
+{
+	font-size: 22px;
+    font-weight: bold;
+}
+
+.VilleAnnonceAvant
+{
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.descriptionAnnonceAVant
+{
+	font-size: 19px;
+	padding-bottom: 12px;
+}
+
+.descriptionAnnonceAVant img
+{
+	border-radius:10px;
+	box-shadow: 1px 4px 4px 4px seagreen;
+	min-width: 200px;
+	max-width: 200px;
+}
+
+.prixAnnonceAvant,.uniteMesure
+{	
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.prixAnnonceAvant > div,.uniteMesure span
+{
+	display: inline-block;
+	font-size: 22px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: 20px;
+}
+
+.VilleAnnonceAvant
+{
+	margin-left: 20px;
+}
+
+.descriptionAnnonceAVant header,.conteneurNumeroTw span
+{
+	font-weight: bold;
+	color: rgba(0,0,0,0.5);
+	font-size: 19px;
+}
+
+.posteFairePar div
+{
+	position: absolute;
+	right: 20%;
+	top: 150px;
+}
+
+.posteFairePar img
+{
+	right: 20%;
+	top: 87px;
+	position: absolute;
+	right: 10%;
+	min-width: 70px;
+	max-width: 70px;
+	min-height: 70px;
+	max-height: 70px;
+	border-radius: 100px;
+}
+
+@media (max-width: 542px)
+{
+.panierRecherchePageDemandeClient img
+{
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;	
+	margin-left: 30px;
+	top: 270px;
+	right: 30px;
+}
+
+
+.conteneurNumeroTw strong,.cacheNumero
+{
+   display: none;   
+}
+
+}
+
+@media (min-width: 442px)
+{
+.panierRecherchePageDemandeClient img
+{
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;	
+	margin-left: 30px;
+  top: 270px;
+	right: 30px;
+}
+
+.posteFairePar
+{
+	right: 5%;
+}
+}
+
+@media (min-width: 689px)
+{
+.posteSelectionneDescription
+{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.prixAnnonceAvant,.uniteMesure
+{	
+  padding-left: 50px;
+}
+}
+
+@media (min-width: 1024px)
+{
+.posteSelectionneDescription
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.prixAnnonceAvant,.uniteMesure
+{	
+  padding-left: 150px;
+}
+}

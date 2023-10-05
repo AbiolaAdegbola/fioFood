@@ -1,0 +1,325 @@
+.postesMarche a:hover
+{
+	text-decoration: none;
+}
+
+.postesMarche a
+{
+	color: black;
+}
+
+.descriptionsPostePrixLocationMarche
+{
+	width: 100%;
+	margin-left: 4px;
+}
+
+.conteneurPhotoMemeMarche img
+{
+	position: absolute;
+	min-width: 70px;
+	max-width: 70px;
+	min-height: 70px;
+	max-height: 70px;
+	border-radius: 100px;
+	top: 30px;
+	left: 20px;
+}
+
+.nomUtilisateurMarcheMeme
+{
+	position: absolute;
+	bottom: 30px;
+	left: 12px;
+	font-size: 15px;
+}
+
+.conteneurContactUtilisateur
+{
+	position: absolute;
+	top: 2px;
+	left: 20%;
+}
+
+.postesMarche
+{
+	position: relative;
+	min-height: 215px;
+	max-height: 215px;
+	min-width: 180px;
+	max-width: 180px;
+	padding: 5px;
+}
+
+.imagePosteMarche img
+{
+	min-width: 170px;
+	max-width: 170px;
+	min-height:100px;
+	max-height: 100px;
+}
+
+.iconPhotoMarche img
+{
+	min-width: 70px;
+	max-width: 70px;
+	min-height: 70px;
+	max-height: 70px;
+	border-radius: 100px;
+}
+
+.vendeurProfessionnelleMarche img,.vendeurProfessionnelleMemeMarche img
+{
+	position: absolute;
+	min-height: 30px;
+	max-height: 30px;
+	min-width: 30px;
+	max-width: 30px;
+}
+
+.vendeurProfessionnelleMarche img
+{
+	bottom: 1px;
+}
+
+.vendeurProfessionnelleMemeMarche img
+{
+	left: -2px;
+	bottom: -26px;
+}
+
+.visiteTableUtilisateur
+{
+	position: absolute;
+	right: 20%;
+	bottom: 20px;
+}
+
+.visiteTableUtilisateurMemeMarche
+{
+	position: absolute;
+	right: 10%;
+	font-size: 22px;
+	bottom: 5px;
+	color: blue;
+}
+
+.logofiofoodImg img
+{
+	margin-top: 40px;
+	min-width: 20%;
+	max-width: 20%;
+}
+
+.iconVillemarche
+{
+	padding: 10px;
+	padding-left: 30px;
+	font-size: 23px;
+	color: blue;
+	cursor: pointer;
+}
+
+.iconVillemarcheTerminel
+{
+	padding: 10px;
+	font-size: 23px; 
+	color: rgba(0, 0, 255, 0.5);
+}
+.nomUtilisateurMarche
+{
+	padding-left: 90px;
+}
+.quantiteMinMaxPrixMarche
+{
+	padding-left: 5px;
+}
+
+.conteneurGeneralMemeMarche
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.tauxreductionpanier
+{
+	position: absolute;
+	top: 80px;
+	background-color: rgba(83, 255, 126, 1);
+	border-radius: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.ajouterPanierMarcheCollection img
+{	
+	margin-bottom: 12px;
+	margin-left: 94px;
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+}
+
+.quantiteMaxMarche div,.quantiteMinMarche div
+{
+	margin-left: 5px;
+}
+
+.quantiteMinMaxMarche
+{
+	display: flex;
+	width: 100%;
+}
+
+.ajouterPanierMarche img
+{
+    width: 100%;
+}
+
+.headerMemeMarche
+{
+	border-top: 1px solid blue;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 1px;
+	border-radius: 10px;
+	text-align: right;
+	color: blueviolet;
+	font-size: 22px;
+}
+
+.conteneurmarchefiofoodUtilisateurAvantDisplay
+{
+	display: flex;
+	padding: 5px;
+}
+
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 5px;
+}
+
+.infoUtilisateurMarche
+{
+	margin-left: 80px;
+	margin-top: 40px;
+	position: relative;
+}
+
+@media (max-width: 499px)
+{
+.postesConteneurDisplayNaturel
+{
+  min-width: 140px;
+  max-width: 140px;
+}
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 10%;
+}
+}
+
+@media (min-width: 499px) and (max-width: 599px)
+{
+.postesConteneurDisplayNaturel
+{
+  min-width: 140px;
+  max-width: 140px;
+}
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 10%;
+}
+.conteneurGeneralMemeMarche
+{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+}
+
+@media (min-width: 599px) and (max-width: 699px)
+{
+.conteneurGeneralMemeMarche
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 20%;
+}
+}
+
+@media (min-width: 699px) and (max-width: 799px)
+{
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 27%;
+}
+.conteneurGeneralMemeMarche
+{
+	margin-left: 13%;
+	margin-right: 13%;
+}
+}
+
+
+@media (min-width: 799px) and (max-width: 900px)
+{
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 8%;
+	display: flex;
+}
+.conteneurGeneralMemeMarche
+{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+}
+
+@media (min-width: 900px) and (max-width: 1020px)
+{
+.conteneurGeneralMemeMarche
+{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 15%;
+	display: flex;
+}
+}
+
+@media (min-width: 1020px)
+{
+.infoUtilisateurMarche
+{
+	margin-left: 20%;
+}
+.conteneurGeneralMemeMarche
+{
+	display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.postesConteneurDisplayNaturel
+{
+  min-width: 140px;
+  max-width: 140px;
+}
+.conteneurmarchefiofoodUtilisateur
+{
+	margin-left: 18%;	
+	display: flex;
+}
+}
+
+
+

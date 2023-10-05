@@ -1,0 +1,386 @@
+/*
+CSS FAIRE UNE ANNONCE
+*/
+
+.conteneurFaireUneAnnoncePrincipale
+{
+	width: 100%;
+}
+.annonce
+{
+   padding: 15px;
+	background-color: rgba(245 ,245 ,245 ,0.5);
+	width: 100%;
+}
+
+#modeventeProduit
+{
+	display: none;
+}
+
+#seConnecterConteneur a,#seConnecterConteneur a:hover
+{
+	text-decoration: none;
+}
+.annonce header
+{
+	font-size: 44px;
+	margin-left: 35px;
+	font-weight: bolder;
+	text-shadow: 2px 2px 2px 2px;
+}
+#photoPostesConteneur ,#descriptionPostesConteneur,
+#contactAnnonceConteneur
+{
+	margin: 25px;
+	border-radius: 9px;
+	box-shadow: 1px 1px 1px rgba(0 ,0 ,0, 0.2);
+	background-color: white;
+	padding-bottom: 20px;
+}
+.photoPostesConteneur h2
+{
+   font-size: 18px;
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-bottom: 5px;
+}
+
+.precisionConteneur
+{
+	color: rgba(0 ,0 ,0 ,0.5);
+	font-size: 14px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+.ajouterPhotos
+{
+	display: flex;
+	width: 100%;
+}
+
+.photoPrincipale
+{
+	display: none;
+}
+
+.Principale,.PrincipalePayant
+{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+.PrincipalePayant
+{
+	opacity: 0.1;
+}
+
+#descriptionPostesConteneur input[class="zoneInformation"], 
+#descriptionPostesConteneur select[class="zoneInformation"],
+#descriptionPostesConteneur textarea[class="zoneInformation"],
+#contactAnnonceConteneur input[class="zoneInformation"],
+#publierAnnonce,#annulerAnnonce
+{
+  padding: 15px;
+  padding-left: 55px;
+  border-radius: 30px;
+}
+#publierAnnonce,#annulerAnnonce
+{
+	margin-left: 2%;
+}
+input:focus,select:focus, textarea:focus
+{
+  outline: none;
+}
+
+#descriptionPostesConteneur input[class="zoneInformation"],
+#descriptionPostesConteneur select[class="zoneInformation"],
+#contactAnnonceConteneur input[class="zoneInformation"],
+#descriptionPostesConteneur textarea[class="zoneInformation"]
+{
+	width: 100%;
+}
+
+.conteneurGeneralFiltreFiofood
+{
+	font-size: 15px;
+	font-style: italic;
+	margin: 10px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.conteneurGeneralFiltreFiofood header
+{
+	font-size: 22px;
+	text-align: center;
+}
+
+.titreAnnonce,.prixAnnonce,.categorieAnnonce,
+.VilleAnnonce,.descriptionAnnonce,.contactAnnonce,
+.quantiteMinAnnonce,.prixAnnonceMax,
+.uniteMesureAnnonce,.quantiteMaxAnnonce,
+{
+	margin: 20px;
+   font-size: 32px;
+   color: rgba(0 ,0, 0 ,0.9);
+   font-weight: bolder;
+}
+
+.titreAnnonce span
+{
+	margin-left: 50px;
+	font-size: 18px;
+	color: rgba(0 ,0, 0 ,0.5);
+}
+
+.categorieAnnonce,.VilleAnnonce
+{
+  margin-left: 30px;
+}
+
+.contactAnnonce
+{
+	margin-top: 22px;
+}
+
+#publierAnnonce,#annulerAnnonce
+{
+	width: 95%;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+#publierAnnonce
+{
+	background-color: rgba(255 ,79, 79, 0.5);
+}
+
+#annulerAnnonce
+{
+	background-color: rgba(74,74,74,0.5);
+}
+
+/*
+CSS SE CONNecTER
+*/
+#logofiofoodImg
+{
+	width: 400px;
+	margin-left: 12px;
+}
+
+#logofiofoodImg img
+{
+	width: 100%;
+}
+#logofiofoodText
+{
+	text-align: center;
+	font-size: 45px;
+	color: rgba(0, 0, 255, 0.5);
+}
+
+#viaFacebook,#viaGoogle,#viaTelephone
+{
+	padding: 20px;
+	width: 80%;
+	text-align: center;
+	margin: 10px;
+	margin-left: 54px;
+	border-radius: 14px;
+	box-shadow: 1px 1px 1px 1px rgba(0 ,0 ,0, 0.3);
+	color: white;
+	font-size: 18px;
+}
+
+#viaFacebook
+{
+	background-color: rgba(0 ,0 ,255 ,0.4);
+}
+
+#viaGoogle
+{
+	background-color: rgba(255 ,0 ,0, 0.3);
+}
+
+#viaTelephone
+{
+	background-color: rgba(148 ,201 ,201 ,0.5);
+}
+
+#seConnecterFormulaire label
+{
+	cursor: pointer;
+
+}
+
+#seConnecterFormulaire
+{
+	margin: 20px;
+	margin-left: 15px;
+	color: blue;
+	text-align: center;
+}
+
+/*
+   CSS POUR LA MISE EN FORME DES
+    IMAGES 
+   AVANT DE FAIRE LE POSTE
+*/
+
+#preview1,#preview2,#preview3,#preview4,
+#preview5,#preview6,#preview7,#preview8,
+#preview9
+{
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	bottom: 1px;
+	right: 2px;
+	max-width: 100px;
+	min-width: 100px;
+	max-height: 100px;
+	min-height: 100px;
+}
+.appareilPhotoIcon
+{
+	position: absolute;
+	text-align: center;
+	left: 30px;
+	top: 24px;
+	font-size: 35px;
+}
+
+.Principale img,.PrincipalePayant img
+{
+	max-height: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	min-width: 100px;
+	border-radius: 10px;
+}
+
+.numeroTelephoneIconTelephone
+{
+	position: relative;
+}
+
+#IconTele,#Iconwhat
+{
+	position: absolute;
+	bottom: 12px;
+	font-size: 32px;
+	margin-left: 25px;
+}
+
+#IconTele
+{
+	color: rgb(42, 91, 165);
+}
+
+#Iconwhat
+{
+	color: rgb(9, 255, 0);
+}
+.avantPosteCarousel
+{
+	display: flex;
+	margin: auto;
+	min-height: 200px;
+	max-height: 500px;
+}
+
+.avantPostes
+{
+	width: 100%;
+}
+
+.AvantImagePoste
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.AvantImagePoste img
+{
+   width: 100%;
+   min-height: 200px;
+   max-height: 500px;
+}
+
+.descriptionAnnonceConteneurDiv
+{
+	border-radius: 10px;
+	background-color: rgba(200 ,250 ,250 ,0.1);
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	margin: 10px;
+}
+
+/*  
+LES MEDIAS QUERIES 
+MOBILES
+*/
+
+@media(max-width: 649px)
+{
+.ajouterPhotos
+{
+	margin-left: 15%;
+}
+}
+
+@media(max-width: 570px)
+{
+.ajouterPhotos
+{
+	margin-left: 1%;
+} 
+}
+
+/*  
+LES MEDIAS QUERIES 
+TABLETTES
+*/
+@media (min-width: 650px) and (max-width: 768px)
+{
+.ajouterPhotos
+{
+	margin-left: 15%;
+}	
+}
+
+/*  
+LES MEDIAS QUERIES 
+ORDINATEURS
+*/
+@media (min-width: 768px) and (max-width: 992px)
+{
+.ajouterPhotos
+{
+	margin-left: 30%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px)
+{
+
+.ajouterPhotos
+{
+	margin-left: 30.5%;
+}
+}
+
+@media(min-width: 1200px)
+{
+.ajouterPhotos
+{
+	margin-left: 40%;
+}
+}

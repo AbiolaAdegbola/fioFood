@@ -1,0 +1,61 @@
+.mesAchatsInfoCompte
+{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+@media (min-width: 800px) and (max-width: 1020px)
+{
+  .conteneurGeneralPanierClientPage
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 1020px)
+{
+  .conteneurGeneralPanierClientPage
+  {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+.profilLivreur img
+{
+  position: absolute;
+  right: 40px;
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  border-radius: 80px;
+}
+
+.nomlivreurDucolis
+{
+  position: absolute;
+  right: 100px;
+  width: 100%;
+  font-size: 19px;
+}
+
+.contactLivreurColis
+{
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 100%;
+  font-size: 19px;
+}
+
+.pasdelivreur
+{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}

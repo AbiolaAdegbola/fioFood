@@ -1,0 +1,257 @@
+.conteneurmarchefiofoodUtilisateurPage
+{
+	width: 100%;
+}
+
+.conteneurmarchefiofoodUtilisateurPageSection
+{
+	margin: 10px;
+}
+
+.postesMarcheRecette
+{
+	position: relative;
+	min-height: 210px;
+	max-height: 210px;
+	min-width: 350px;
+	max-width: 350px;
+}
+.imagePosteMarchePage
+{
+	position: absolute;
+}
+
+.imagePosteMarchePage img
+{		
+	min-height: 210px;
+	max-height: 210px;
+	min-width: 350px;
+	max-width: 350px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.detailsPosteMarchePage
+{
+	position: absolute;
+	min-height: 210px;
+	max-height: 210px;
+	min-width: 350px;
+	max-width: 350px;	
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.detailsPosteMarchePageNom
+{
+	position: absolute;
+	bottom: 68px;
+	left: 15px;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+
+.detailsPosteMarchePagePays
+{
+	position: absolute;
+	bottom: 10px;
+	right: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+.detailsPosteMarchePagePays img
+{
+	width: 30px;
+}
+
+.detailsPosteMarchePageNombre
+{
+	position: absolute;
+	bottom: 2px;
+	left: 10px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.detailsPosteMarchePageNombre span
+{
+	position: absolute;
+	bottom: 2px;
+	padding-left: 2px;
+}
+.detailsPosteMarchePageNombre img
+{
+	width: 70px;
+}
+
+#ingredientinputvalider,#preparationinputvalider
+{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 9px;
+	margin-left: 20%;
+	margin-top: 10%;
+	background-color: seagreen;
+	color: white;
+	font-weight: bold;
+}
+
+.postesMarcheRecette a
+{
+	text-decoration: none;
+}
+
+.detailrecettenombrepersonne
+{
+	display: flex;
+	margin: 10px;
+}
+
+.detailrecettenombrepersonneAvantFlex
+{
+	padding: 10px;
+	margin-left: 5%;
+}
+
+.tempspreparation
+{
+	font-size: 15px;
+}
+
+.tempspreparation img
+{
+	min-width: 50px;
+	max-width: 50px;
+	margin-left: 50px;
+}
+
+.ingredient
+      {
+         position: relative;
+      }
+.okingredient
+      {
+         position: absolute;
+         top:105px;
+         right: -40px;
+         cursor: pointer;
+         padding: 10px;
+         border-radius: 10px;
+         background-color: seagreen;
+         color: white;
+         margin: 10px;
+      } 
+.listeIngredient
+      {
+         margin-left: 20px;
+         font-size: 18px;
+         font-weight: bold;
+      }
+.paysrecetteSelect
+      {
+         padding: 10px;
+         margin: 10px;
+         margin-left: 10%;
+      }
+
+.recetteChoisir
+{
+	margin-top: 10px;
+	width: 100%;
+}
+
+.imagePosteMarcheRecette img
+{
+	min-height: 250px;
+	max-height: 250px;
+	min-width: 380px;
+	max-width: 380px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.preparationRecette
+{
+	width: 100%;
+}
+
+.recettteDescription
+{
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+}
+
+.posteFaireParRecette div
+{
+	position: absolute;
+	font-size: 15px;
+	right: 10%;
+	font-style: italic;
+}
+
+.ingredientRecette li,.ingredientRecette h6
+{
+	padding: 2px;
+	font-size: 22px;
+}
+
+.ingredientRecette h6
+{
+  	font-weight: bold;
+  	margin-top: 20px;
+}
+
+.posteFaireParRecette span
+{
+	font-weight: bold;
+	color: seagreen;
+	text-transform: uppercase;
+}
+
+.detailsPosteMarcheRecette
+{
+	font-size: 22px;
+	color: skyblue;
+}
+
+.paysrecette
+{
+	margin-left: 40px;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+@media (min-width: 600px)
+{
+.recettteDescription
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.imagePosteMarcheRecette img
+{
+	min-height: 250px;
+	max-height: 250px;
+	min-width: 480px;
+	max-width: 480px;
+}
+}
+
+@media (min-width: 1020px)
+{
+.recettteDescription
+{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.imagePosteMarcheRecette img
+{
+	min-height: 250px;
+	max-height: 250px;
+	min-width: 490px;
+	max-width: 490px;
+}
+}

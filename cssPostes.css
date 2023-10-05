@@ -1,0 +1,452 @@
+.sliderPostesConteneur
+{
+	display: flex;
+	width:100%;
+}
+
+.sliderPostesDescription
+{
+	width: 100%;
+}
+
+.conteneurCarousel
+{
+  width: 100%;
+}
+
+.typeDeProduit
+{
+	width: 100%;
+}
+
+.item
+{
+  width: 200px;
+}
+
+.descriptionInformaionCompte
+{
+
+}
+
+.titredescriptionInformaionCompte
+{
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.contenudescriptionInformaionCompte
+{
+	margin-left: 5em;
+}
+
+
+.detailsSliderPoste
+{
+	padding-left: 9px; 
+	color: white;
+}
+
+.localisationSlider
+{
+	padding-left: 9px;
+}
+
+.contactPosteSlider
+{
+	text-align: center;
+	color: white;
+	background-color: rgba(153,217,234,0.5);
+	border-radius: 0px 0px 9px 9px;
+	padding: 12px;
+	cursor: pointer;
+}
+.sliderPostes
+{
+	margin-top: 15px;
+	margin-left: 15px;
+	padding-top: 1px;
+	background-color: green;
+	border-radius: 9px;
+	min-width: 150px;
+	max-width: 150px;
+	max-height: 210px;
+	min-height: 210px;
+}
+
+.sliderPostes img
+{ 
+	width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	border-radius: 9px 9px 0px 0px;	
+}
+
+.topannonceclient img
+{
+	min-width: 10%;
+	max-width: 10%;
+	margin-left: 50px;
+}
+
+.postes
+{
+  position: relative;	
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.3);
+  margin: 5px;
+  margin-top: 10px;
+  max-height: 280px;
+  min-height: 280px;
+  text-overflow: ellipsis;
+}
+
+.titrePanierSpecial
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding-top: 110px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+   border-radius:9px 9px 9px 9px;
+   color: white;
+   font-size: 22px;
+   text-align: center;
+}
+
+.imagePoste img
+{
+   width: 100%;
+   border-radius:9px 9px 0px 0px;
+   max-height:150px;
+   min-height: 150px;
+}
+
+.imagePosteCollection img
+{
+   width: 100%;
+   border-radius:9px 9px 9px 9px;   
+   max-height: 280px;
+   min-height: 280px;
+}
+
+.descriptionsPoste
+{
+	width: 100%;
+}
+
+.descriptionsPostePrixLocation
+{
+	text-align: center;
+}
+
+.quantiteMinMax > div
+{
+	display: inline-block;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: 8px;
+}
+
+.quantiteMinMaxPrix
+{
+	color: black;
+}
+
+.postesConteneur
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.conteneurNumeroTwAccueil a
+{
+	margin: 10px;
+}
+
+.conteneurNumeroTwAccueil a img
+{
+	width: 20%;
+}
+
+.troisiemeDivPremiereSession,.troisiemeDivPremiereSessionNavigateur,.troisiemeConteneurPoste
+{
+	display: none;
+}
+
+.postesConteneurDisplay
+{
+   min-width: 50%;
+   max-width: 50%;
+}
+
+#PrincipalePosteConteneur
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.postesConteneur a:hover,.postesConteneur a
+{
+	text-decoration: none;
+	color: inherit;
+}
+.detailsPoste
+{
+	font-size: 22px;
+	color: rgba(0 , 0, 255,0.5);
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.conteneurPremierePrincipale
+{
+	
+}
+
+.contactPoste
+{
+	display: flex;
+	position: absolute;
+	width: 100%;
+}
+
+.contactPosteBoutonContact img
+{
+	cursor: pointer;
+	position: absolute;
+	top:-5px; 
+	right: 9px;
+	min-width: 40px;
+	max-width: 40px;
+}
+
+.contactPosteVendeurProf
+{
+   position: absolute;
+   right: -58px;
+   top: -88px;
+   bottom: -45px;
+   min-width: 85px;
+   max-width: 85px;
+}
+
+.contactPosteVendeurProf img
+{
+   width: 30%;
+}
+
+.contactPosteVendeurProf span
+{
+   font-size: 18px;
+   font-style: italic;
+}
+
+/*
+CODE CSS DE LA PAGE DEMANDEE PAR LE CLIENT
+*/
+
+.sautDePage ul
+{
+	list-style-type: none;
+	display: flex;
+	margin-top: 14px;
+}
+
+.sautDePage ul li
+{
+	cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    background-color: rgba(192, 192, 192, 0.5);
+    margin: 2px;
+    border-radius: 9px;
+    border-top: 1px solid rgba(0, 0 ,0 ,0.5);
+}
+
+.compteDuJourPublicite
+{
+   margin: 10px;
+   display: flex;
+}
+
+.publiciteSection
+{
+   min-width: 60%;
+   max-width: 60%;
+   min-height: 300px;
+   max-height: 300px;
+   position: relative;
+   margin-right: 5px;
+}
+
+.publiciteSection img
+{
+   width: 100%;   
+   max-height: 300px;
+   min-height: 300px;
+   border-radius: 10px;
+}
+
+.descriptionPublicite
+{
+	position: absolute;
+	background-color: rgba(234,234,234,0.7);
+	width: 100%;
+	text-align: center;
+	color: black;
+	bottom: 0.5px;
+	top: 0;
+	border-radius: 0 0 10px 10px;
+	padding: 10px;
+}
+
+.contactCompteUtilisateurDemande
+{
+	display: flex;
+	text-align: center;
+}
+
+.cssContactCompteUtilisateurDemande img
+{
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+	margin-left: 7px;
+}
+
+.compteEntrepriseUtilisateur a>img
+{
+   width: 100%;
+   max-height: 300px;
+   min-height: 300px;
+   border-radius: 10px;
+}
+
+.conteneurDescriptionCompteEntreprise
+{
+	display: flex;
+}
+
+.entetePostePublication
+{
+	position: relative;
+	border-top: 1px solid rgba(0, 0, 0 ,0.5);
+	text-align: right;
+	padding-right: 16px; 
+	border-radius: 20px;
+}
+.entetePostePublication a
+{
+	text-decoration: none;
+}
+
+	.conteneurSuivrePanier
+	{
+		position: absolute;
+		left: 2px;
+		top: -12px;
+		background-color: rgba(255, 128, 68, 1.0);
+		border-radius: 20px;
+		font-style: italic;
+		font-weight: bold;
+		padding: 10px;
+		z-index: 99;
+	}
+
+.entetePostePublication a:hover
+{
+	color: red;
+	text-decoration: none;
+}
+
+.typeProduitArticle ul
+{
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+}
+/*  
+LES MEDIAS QUERIES 
+MOBILES
+*/
+
+@media (min-width: 549.556px) AND (max-width: 649.999px)
+{
+#PrincipalePosteConteneur
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+}
+
+/*  
+LES MEDIAS QUERIES 
+TABLETTES
+*/
+@media (min-width: 649.565px) and (max-width: 768.876px)
+{
+#PrincipalePosteConteneur
+{
+}
+
+.troisiemeDivPremiereSession
+{
+	display: run-in;
+}
+.troisiemeDivPremiereSessionNavigateur
+{
+	display: initial;
+}
+.postesConteneurDisplay
+{
+   min-width: 30%;
+   max-width: 30%;
+}
+}
+
+/*  
+LES MEDIAS QUERIES 
+ORDINATEURS
+*/
+@media (min-width: 768.880px) and (max-width: 1024.098px)
+{
+#PrincipalePosteConteneur
+{
+   margin-left: 80px;
+   margin-right: 80px;
+}
+
+.troisiemeDivPremiereSession
+{
+	display: run-in;
+}
+.troisiemeDivPremiereSessionNavigateur
+{
+	display: initial;
+}
+.postesConteneurDisplay
+{
+   min-width: 30%;
+   max-width: 30%;
+}
+}
+
+
+@media(min-width: 1024.098px)
+{
+.conteneurPremierePrincipale
+{
+	display: flex;
+	justify-content: center;
+}
+#PrincipalePosteConteneur
+{
+	margin-left: 150px!important;
+	margin-right: 150px!important;
+}
+}

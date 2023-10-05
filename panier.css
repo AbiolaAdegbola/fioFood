@@ -1,0 +1,164 @@
+.conteneurPanier
+{
+	display: flex;
+	margin: 15px;
+
+}	
+
+.quantiteNumber
+{
+	width: 50px;
+}
+
+.panierImage
+{
+	padding-left: 10px;
+}
+
+.panierImage img
+{
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 50px;
+	max-height: 50px;	
+	width: 100%;
+	border-radius: 10px;
+}
+
+.titrePanier
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 19px;
+	margin-left: 10px;
+	color: green;
+	width: 60%;
+	margin-top: 16px;
+}
+
+.prixProduitPanier
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+	color: red;
+	padding-left: 3px;
+	width: 100%;
+}
+
+.totalPanier
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 33px;
+	padding: 10px;
+	color: red;	
+}
+
+.headerPanier
+{
+	color: green;
+	text-align: center; 
+	font-size: 50px;
+	font-style: italic;
+}
+
+.headerPanier img
+{
+	max-width: 230px;
+	min-width: 230px;
+}
+
+.passerCommander
+{
+	background-color: green;
+	padding: 15px;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.supprimerElementPanier,.panierSupp
+{
+	margin-top: 5px;
+	font-size: 35px;
+	color: red;
+	margin-right: 40px;
+}
+
+/*PAGE PANIERVALIDER.PHP*/
+
+.conteneurPanierValider
+{
+	margin-top: 60px;
+	width: 100%;
+}
+
+.conteneurFormPanierValider
+{
+	width: 70%;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.nomClient label,.contactClient label,.lieuLivraison label
+{
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.nomClient input,.contactClient input,.lieuLivraison input
+{
+	border-radius: 10px;
+	width: 100%;
+	padding: 10px;
+	margin-left: 20%;
+}
+
+.confirmerCommander
+{
+	display: flex;
+	font-size: 22px;
+	margin-left: 30%;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.confirmerCommander a
+{
+	background-color: red;
+	margin: 10px;
+	border-radius: 10px;
+	color: black;
+	padding: 15px;
+}
+
+.confirmerCommander input
+{
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+}
+
+.conteneurAdministrateurCommandeFiofood,.headerAdministrateurCommandeFiofood
+{
+	display: flex;
+	margin: 10px;
+	border-bottom: 1px solid black;
+}
+
+.conteneurAdministrateurCommandeFiofood div,.headerAdministrateurCommandeFiofood div
+{
+	margin: 10px;
+}
+
+.headerAdministrateurCommandeFiofood div
+{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}

@@ -1,0 +1,250 @@
+/*.connexionPageConteneurPrincipale
+{
+	margin-top: 40px;
+}
+
+.connexionPageConteneurPrincipale header
+{
+	text-align: center;
+	font-size: 32px; 
+	font-style: italic; 
+	color: green;
+	text-decoration: underline;
+}
+
+
+
+.formConnexionPage
+{
+  width: 100%;
+}
+
+.inputEmailTelephoneConnexionPage label
+{
+	font-size: 33px;
+	font-style: italic;
+}
+
+.inputEmailTelephoneConnexionPage input
+{
+	border-color: seagreen;
+	padding:20px;
+	border-radius: 10px;
+}
+
+#conteneurPhotoCouverture
+{
+	background-image: url('iconFioFood.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 90px -90px;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+#statutInscription select
+{
+	margin-left: 30px;
+	text-align: center;
+}
+
+#nomMarcheInscription
+{
+	display: none;
+}
+
+#AnnulerEnvonyezInscription
+{
+	display: flex;
+	margin-left: 20%;
+}
+
+#AnnulerInscription,
+#EnvoyerInscription
+{
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	margin: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#AnnulerInscription
+{
+	background-color: red;
+}
+
+#EnvoyerInscription
+{
+	background-color: rgba(0 ,255 ,0 ,0.7);
+	border: 1px rgba(0 ,255 ,0 ,0.5) solid;
+	box-shadow: 0px 4px 4px 4px rgba(0 ,255 ,0 ,0.7);
+}*/
+
+.inputConnexion
+{
+	padding: 20px;
+	width: 100%;
+	border: 0.5px solid rgba(18, 55, 34, 0.2);
+	border-radius: 20px;
+}
+
+#conteneurPhotoCouverture
+{
+	margin-top: 45px;
+}
+
+#conteneurPhotoProfil
+{
+	position: relative;
+	width: 20%;
+	height: 200px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+#conteneuurPhotoCouverture
+{
+	position: relative;
+	width: 50%;
+	height: 200px;
+	border-radius: 12px;
+	background-color: rgba(0,0,0,0.2);
+	margin-left: 150px;
+}
+
+#conteneurPhotoProfil label img
+{
+	position: absolute;
+	width: 100%;
+	max-height: 200px;
+	min-height: 200px;
+	top: -1px;
+	border-radius: 12px;
+}
+
+#conteneuurPhotoCouverture label,#conteneurPhotoProfil label
+{
+	cursor: pointer;
+}
+
+#conteneuurPhotoCouverture label img
+{
+	position: absolute;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	border-radius: 12px;
+	top: -1px;
+}
+.iconAPPareilphoto i
+{
+	font-size: 100px;
+	position: absolute;
+	top: 30%;
+	left: 15%;
+}
+
+.iconAPPareilphotoCouverture i
+{
+	font-size: 100px;
+	position: absolute;
+	top: 20%;
+	left: 38%;
+}
+#conteneurEnvoyerIgnorer
+{
+	display: flex;
+	margin:20px;
+	margin-left: 100px;
+}
+
+#contenurEnvoyerProfilCouverture label
+{
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 9px;
+	margin: 5px;
+	background-color: rgba(132,255,193,0.5);
+	border-top: 1px solid rgba(0 ,0, 0 ,0.2);	
+}
+
+#conteneurIgnorerEtape label
+{
+	cursor: pointer;
+    padding: 15px;
+    margin: 5px;
+	border-radius: 9px;
+	background-color: rgba(255,140,85,0.3);
+	border-top: 1px solid rgba(0 ,0, 0 ,0.2);
+}
+
+#conteneurIgnorerEtape label a
+{
+	text-decoration: none;
+	color: black;
+}
+/*  
+LES MEDIAS QUERIES 
+MOBILES
+*/
+
+@media(max-width: 600px)
+{
+
+}
+
+/*  
+LES MEDIAS QUERIES 
+TABLETTES
+*/
+@media(max-width: 768px)
+{
+
+.iconAPPareilphoto i
+{
+	font-size: 70px;
+	left: 15% !important;
+}
+
+.submitConnexionPage
+{ 
+	margin-left:70px;
+}
+
+#conteneurPhotoProfil
+{
+  width: 30%;
+}
+}
+
+/*  
+LES MEDIAS QUERIES 
+ORDINATEURS
+*/
+
+@media (min-width:768px) and (max-width: 992px)
+{
+.iconAPPareilphoto i
+{
+	left: 25% !important;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px)
+{
+.iconAPPareilphoto i
+{
+	left: 25% !important;
+}
+}
+
+@media (min-width: 1200px)
+{
+.iconAPPareilphoto i
+{
+	left: 30% !important;
+}
+}
